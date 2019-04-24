@@ -1,0 +1,10 @@
+reg sig;
+
+wire pulse;
+assign pulse = sig & ~sig_dly;
+
+always @(posedge clk or posedge rst)
+if(rst)
+sig_dly <= 1'b0;
+else
+sig_dly <= sig;
