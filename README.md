@@ -1,2 +1,2 @@
 # hdl
-Hardware Description Language module code and snippets
+Hardware Description Language module code and snippets written by me
